@@ -77,9 +77,11 @@ namespace WarGame {
 			for (int iRow=0; iRow<numRows; ++iRow) {
 				for (int iCol=0; iCol<numCols; ++iCol) {
 					Soldier* soldier = board[{iRow,iCol}];
-					if (soldier){}
+					if (soldier){
+						delete soldier;
+						    }
 					   // std::cout<<getletter();
-					//	delete soldier;
+						
 				}
 			}
 		}
