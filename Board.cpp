@@ -2,7 +2,7 @@
 // Created by dolev on 26/05/2020.
 //
 
-#include "Board.hpp.original"
+#include "Board.hpp"
                                       //board is build in two int vectores
 Soldier*& WarGame::Board::operator[](std::pair<int,int> location)
 {
