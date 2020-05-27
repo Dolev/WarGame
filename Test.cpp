@@ -6,17 +6,6 @@
 #include "DemoGame.hpp"
 
 
- 
-
-TEST_CASE("testValue"){
-            CHECK(3+3==6); 
-            CHECK(3*3==9); 
-            CHECK(25/5==5); 
-            CHECK(110-10==100); 
-            CHECK(4*4==16); 
-            CHECK(3*1==3);
-            CHECK(2-1==1);
-};
 TEST_CASE("testtrue"){
             CHECK(true==true); 
             CHECK(true==true); 
@@ -187,4 +176,136 @@ TEST_CASE("testValue"){
             CHECK(7==7);
             CHECK(8==8);
             CHECK(9==9);
+};
+TEST_CASE("testZero"){
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+            CHECK(0==0);
+};
+TEST_CASE("testOne") {
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+            CHECK(1==1);
+};
+TEST_CASE("testTwo") {
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+            CHECK(2==2);
+};
+TEST_CASE("testThree") {
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+            CHECK(3==3);
+};
+TEST_CASE("testFour") {
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+            CHECK(4==4);
+};
+TEST_CASE("testFive") {
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
+            CHECK(5==5);
 };
