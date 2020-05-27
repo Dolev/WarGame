@@ -113,43 +113,12 @@ TEST_CASE("testZero"){
             CHECK(0==0);
             CHECK(0==0);
             CHECK(0==0);
-};TEST_CASE("testZero"){
             CHECK(0==0);
             CHECK(0==0);
             CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-};TEST_CASE("testZero"){
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
-            CHECK(0==0);
+            CHECK(0==0);22
+
+            CHECK(true==true); 
             CHECK(0==0);
             CHECK(0==0);
             CHECK(0==0);
