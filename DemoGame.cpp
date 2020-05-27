@@ -6,7 +6,7 @@
  * @author Erel Segal-Halevi
  * @since  2020-05
  */
-
+#include "Board.hpp"
 #include "DemoGame.hpp"
 #include "FootSoldier.hpp"
 #include "FootCommander.hpp"
