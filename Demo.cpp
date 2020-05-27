@@ -15,7 +15,7 @@ int main() {
 /*    if(demoGame.play()==3){
         cout << "tie \n " << endl;
     }*/
-    else{
+    //else{
 	cout << "The winner is:\n " << demoGame.play() << endl;
     //}
     return 0;
