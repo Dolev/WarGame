@@ -12,10 +12,11 @@ using namespace std;
 
 int main() {
 	WarGame::DemoGame demoGame;
-    if(demoGame.play()==3){
+/*    if(demoGame.play()==3){
         cout << "tie \n " << endl;
-    }
+    }*/
     else{
-	cout << "The winner is:\n " << demoGame.play() << endl;}
+	cout << "The winner is:\n " << demoGame.play() << endl;
+    //}
     return 0;
 }
