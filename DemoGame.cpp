@@ -68,18 +68,17 @@ namespace WarGame {
 /*
 			// If no player won, return "tie":
             board.move(2, {7,5}, Board::MoveDIR::Left);    // FootCommander of player 2 moves left from {7,5} to {7,4}, and all soldiers of player 2 attack.
-            if (!board.has_soldiers(1)&&!board.has_soldiers(2)) return 3;
+            if (!board.has_soldiers(1)&&!board.has_soldiers(2)) return 3;*/
 
 			return 0;
 		}
-*/
+
 		DemoGame::~DemoGame() {
 			for (int iRow=0; iRow<numRows; ++iRow) {
 				for (int iCol=0; iCol<numCols; ++iCol) {
 					Soldier* soldier = board[{iRow,iCol}];
-					if (soldier){
+					if (soldier)
 						delete soldier;
-						    }
 					   // std::cout<<getletter();
 						
 				}
