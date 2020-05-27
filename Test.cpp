@@ -70,6 +70,28 @@ TEST_CASE("testfalse") {
             CHECK(false==false);
             CHECK(false==false);
 };
-
- 
-  
+TEST_CASE("testletter"){
+            CHECK(a==a);
+            CHECK(b==b);
+            CHECK(c==c);
+            CHECK(d==d);
+            CHECK(e==e);
+            CHECK(f==f);
+            CHECK(g==g);
+            CHECK(h==h);
+            CHECK(i==i);
+            CHECK(j==j);
+            CHECK(k==k);
+            CHECK(l==l);
+            CHECK(m==m);
+            CHECK(n==n);
+            CHECK(o==o);
+            CHECK(p==p);
+            CHECK(q==q);
+            CHECK(r==r);
+            CHECK(s==s);
+            CHECK(t==t);
+}; 
+  for (size_t i = 0; i < 20; i++) {
+        CHECK((0 + 0) == 0);
+    }
